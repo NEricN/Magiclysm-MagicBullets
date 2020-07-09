@@ -1,0 +1,49 @@
+[{
+  "id": "9x18mm_magic_nature",
+  "copy-from": "9x18mm",
+  "type": "AMMO",
+  "name": { "str": "9x18mm 57-N-181S (enchanted, nature)", "str_pl": "9x18mm 57-N-181Ss (enchanted, nature)" },
+  "description": "9x18mm Makarov ammunition with 93gr steel core FMJ bullets. This bullet has been imbued by a druid's will and pollen will explode on landing, which can blind and slow.",
+  "proportional": { "range": 0.8, "damage": 0.9 },
+  "effects": [ "COOKOFF", "BLINDS_EYES", "SHOT", "APPLY_SAP" ]
+},{
+  "id": "9x18mm_magic_earth",
+  "copy-from": "9x18mm",
+  "type": "AMMO",
+  "name": { "str": "9x18mm 57-N-181S (enchanted, earth)", "str_pl": "9x18mm 57-N-181Ss (enchanted, earth)" },
+  "description": "9x18mm Makarov ammunition with 93gr steel core FMJ bullets. This bullet has been magically shaped by an Earthshaper to turn into fragments upon impact.",
+  "proportional": { "range": 0.8, "damage": 0.5, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "EXPLOSIVE_RAUFOSS", "SHOT" ]
+},{
+  "id": "9x18mm_magic_fire",
+  "copy-from": "9x18mm",
+  "type": "AMMO",
+  "name": { "str": "9x18mm 57-N-181S (enchanted, fire)", "str_pl": "9x18mm 57-N-181Ss (enchanted, fire)" },
+  "description": "9x18mm Makarov ammunition with 93gr steel core FMJ bullets. This bullet has been imbued with fire from a Kelvinist.",
+  "proportional": { "range": 0.8, "damage": 0.3, "recoil": 1.2 },
+  "effects": [ "COOKOFF", "IGNITE", "SHOT" ]
+},{
+  "id": "9x18mm_magic_ice",
+  "copy-from": "9x18mm",
+  "type": "AMMO",
+  "name": { "str": "9x18mm 57-N-181S (enchanted, ice)", "str_pl": "9x18mm 57-N-181Ss (enchanted, ice)" },
+  "description": "9x18mm Makarov ammunition with 93gr steel core FMJ bullets. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
+  "proportional": { "range": 0.8, "damage": 0.5, "recoil": 0.9 },
+  "effects": [ "COOKOFF", "LARGE_BEANBAG", "SHOT" ]
+},{
+  "id": "9x18mm_magic_lightning",
+  "copy-from": "9x18mm",
+  "type": "AMMO",
+  "name": { "str": "9x18mm 57-N-181S (enchanted, lightning)", "str_pl": "9x18mm 57-N-181Ss (enchanted, lightning)" },
+  "description": "9x18mm Makarov ammunition with 93gr steel core FMJ bullets. This bullet has been imbued with lightning from a Stormshaper and will bounce from enemy to enemy.",
+  "proportional": { "range": 0.8, "damage": 0.3, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "LIGHTNING", "BOUNCE" ]
+},{
+  "id": "9x18mm_magic_emp",
+  "copy-from": "9x18mm",
+  "type": "AMMO",
+  "name": { "str": "9x18mm 57-N-181S (enchanted, EMP)", "str_pl": "9x18mm 57-N-181Ss (enchanted, EMP)" },
+  "description": "9x18mm Makarov ammunition with 93gr steel core FMJ bullets. This bullet has been tinkered with by a technomancer to corrupt robotics.",
+  "proportional": { "range": 0.8, "damage": 0.2, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "EMP" ]
+}]

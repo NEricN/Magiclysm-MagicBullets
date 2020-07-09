@@ -1,0 +1,9 @@
+{
+  "id": "<id>_magic_nature",
+  "copy-from": "<id>",
+  "type": "AMMO",
+  "name": { "str": "<name> (enchanted, nature)", "str_pl": "<name>s (enchanted, nature)" },
+  "description": "<sentence> This bullet has been imbued by a druid's will and pollen will explode on landing, which can blind and slow.",
+  "proportional": { "range": 0.8, "damage": 0.9 },
+  "effects": [ "COOKOFF", "BLINDS_EYES", "SHOT", "APPLY_SAP" ]
+}

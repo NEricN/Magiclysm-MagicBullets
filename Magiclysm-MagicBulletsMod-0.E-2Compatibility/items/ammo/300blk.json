@@ -1,0 +1,49 @@
+[{
+  "id": "300blk_magic_nature",
+  "copy-from": "300blk",
+  "type": "AMMO",
+  "name": { "str": ".300 AAC Blackout (enchanted, nature)", "str_pl": ".300 AAC Blackouts (enchanted, nature)" },
+  "description": "A .300 AAC Blackout round with a 125gr open tip match bullet. This bullet has been imbued by a druid's will and pollen will explode on landing, which can blind and slow.",
+  "proportional": { "range": 0.8, "damage": 0.9 },
+  "effects": [ "COOKOFF", "BLINDS_EYES", "SHOT", "APPLY_SAP" ]
+},{
+  "id": "300blk_magic_earth",
+  "copy-from": "300blk",
+  "type": "AMMO",
+  "name": { "str": ".300 AAC Blackout (enchanted, earth)", "str_pl": ".300 AAC Blackouts (enchanted, earth)" },
+  "description": "A .300 AAC Blackout round with a 125gr open tip match bullet. This bullet has been magically shaped by an Earthshaper to turn into fragments upon impact.",
+  "proportional": { "range": 0.8, "damage": 0.5, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "EXPLOSIVE_RAUFOSS", "SHOT" ]
+},{
+  "id": "300blk_magic_fire",
+  "copy-from": "300blk",
+  "type": "AMMO",
+  "name": { "str": ".300 AAC Blackout (enchanted, fire)", "str_pl": ".300 AAC Blackouts (enchanted, fire)" },
+  "description": "A .300 AAC Blackout round with a 125gr open tip match bullet. This bullet has been imbued with fire from a Kelvinist.",
+  "proportional": { "range": 0.8, "damage": 0.3, "recoil": 1.2 },
+  "effects": [ "COOKOFF", "IGNITE", "SHOT" ]
+},{
+  "id": "300blk_magic_ice",
+  "copy-from": "300blk",
+  "type": "AMMO",
+  "name": { "str": ".300 AAC Blackout (enchanted, ice)", "str_pl": ".300 AAC Blackouts (enchanted, ice)" },
+  "description": "A .300 AAC Blackout round with a 125gr open tip match bullet. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
+  "proportional": { "range": 0.8, "damage": 0.5, "recoil": 0.9 },
+  "effects": [ "COOKOFF", "LARGE_BEANBAG", "SHOT" ]
+},{
+  "id": "300blk_magic_lightning",
+  "copy-from": "300blk",
+  "type": "AMMO",
+  "name": { "str": ".300 AAC Blackout (enchanted, lightning)", "str_pl": ".300 AAC Blackouts (enchanted, lightning)" },
+  "description": "A .300 AAC Blackout round with a 125gr open tip match bullet. This bullet has been imbued with lightning from a Stormshaper and will bounce from enemy to enemy.",
+  "proportional": { "range": 0.8, "damage": 0.3, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "LIGHTNING", "BOUNCE" ]
+},{
+  "id": "300blk_magic_emp",
+  "copy-from": "300blk",
+  "type": "AMMO",
+  "name": { "str": ".300 AAC Blackout (enchanted, EMP)", "str_pl": ".300 AAC Blackouts (enchanted, EMP)" },
+  "description": "A .300 AAC Blackout round with a 125gr open tip match bullet. This bullet has been tinkered with by a technomancer to corrupt robotics.",
+  "proportional": { "range": 0.8, "damage": 0.2, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "EMP" ]
+}]

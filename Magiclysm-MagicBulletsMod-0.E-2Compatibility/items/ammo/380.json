@@ -1,0 +1,49 @@
+[{
+  "id": "380_FMJ_magic_nature",
+  "copy-from": "380_FMJ",
+  "type": "AMMO",
+  "name": { "str": ".380 ACP FMJ (enchanted, nature)", "str_pl": ".380 ACP FMJs (enchanted, nature)" },
+  "description": ".380 ACP ammunition with a brass jacketed 95gr bullet. This bullet has been imbued by a druid's will and pollen will explode on landing, which can blind and slow.",
+  "proportional": { "range": 0.8, "damage": 0.9 },
+  "effects": [ "COOKOFF", "BLINDS_EYES", "SHOT", "APPLY_SAP" ]
+},{
+  "id": "380_FMJ_magic_earth",
+  "copy-from": "380_FMJ",
+  "type": "AMMO",
+  "name": { "str": ".380 ACP FMJ (enchanted, earth)", "str_pl": ".380 ACP FMJs (enchanted, earth)" },
+  "description": ".380 ACP ammunition with a brass jacketed 95gr bullet. This bullet has been magically shaped by an Earthshaper to turn into fragments upon impact.",
+  "proportional": { "range": 0.8, "damage": 0.5, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "EXPLOSIVE_RAUFOSS", "SHOT" ]
+},{
+  "id": "380_FMJ_magic_fire",
+  "copy-from": "380_FMJ",
+  "type": "AMMO",
+  "name": { "str": ".380 ACP FMJ (enchanted, fire)", "str_pl": ".380 ACP FMJs (enchanted, fire)" },
+  "description": ".380 ACP ammunition with a brass jacketed 95gr bullet. This bullet has been imbued with fire from a Kelvinist.",
+  "proportional": { "range": 0.8, "damage": 0.3, "recoil": 1.2 },
+  "effects": [ "COOKOFF", "IGNITE", "SHOT" ]
+},{
+  "id": "380_FMJ_magic_ice",
+  "copy-from": "380_FMJ",
+  "type": "AMMO",
+  "name": { "str": ".380 ACP FMJ (enchanted, ice)", "str_pl": ".380 ACP FMJs (enchanted, ice)" },
+  "description": ".380 ACP ammunition with a brass jacketed 95gr bullet. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
+  "proportional": { "range": 0.8, "damage": 0.5, "recoil": 0.9 },
+  "effects": [ "COOKOFF", "LARGE_BEANBAG", "SHOT" ]
+},{
+  "id": "380_FMJ_magic_lightning",
+  "copy-from": "380_FMJ",
+  "type": "AMMO",
+  "name": { "str": ".380 ACP FMJ (enchanted, lightning)", "str_pl": ".380 ACP FMJs (enchanted, lightning)" },
+  "description": ".380 ACP ammunition with a brass jacketed 95gr bullet. This bullet has been imbued with lightning from a Stormshaper and will bounce from enemy to enemy.",
+  "proportional": { "range": 0.8, "damage": 0.3, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "LIGHTNING", "BOUNCE" ]
+},{
+  "id": "380_FMJ_magic_emp",
+  "copy-from": "380_FMJ",
+  "type": "AMMO",
+  "name": { "str": ".380 ACP FMJ (enchanted, EMP)", "str_pl": ".380 ACP FMJs (enchanted, EMP)" },
+  "description": ".380 ACP ammunition with a brass jacketed 95gr bullet. This bullet has been tinkered with by a technomancer to corrupt robotics.",
+  "proportional": { "range": 0.8, "damage": 0.2, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "EMP" ]
+}]

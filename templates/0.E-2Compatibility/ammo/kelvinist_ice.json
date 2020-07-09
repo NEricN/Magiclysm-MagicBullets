@@ -1,0 +1,9 @@
+{
+  "id": "<id>_magic_ice",
+  "copy-from": "<id>",
+  "type": "AMMO",
+  "name": { "str": "<name> (enchanted, ice)", "str_pl": "<name>s (enchanted, ice)" },
+  "description": "<sentence> This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
+  "proportional": { "range": 0.8, "damage": 0.5, "recoil": 0.9 },
+  "effects": [ "COOKOFF", "LARGE_BEANBAG", "SHOT" ]
+}

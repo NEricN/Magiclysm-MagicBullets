@@ -1,0 +1,49 @@
+[{
+  "id": "762_25_magic_nature",
+  "copy-from": "762_25",
+  "type": "AMMO",
+  "name": { "str": "7.62x25mm JHP (enchanted, nature)", "str_pl": "7.62x25mm JHPs (enchanted, nature)" },
+  "description": "A commercial version of the 7.62x25mm cartridge created for the armed forces of Soviet Russia. This bullet has been imbued by a druid's will and pollen will explode on landing, which can blind and slow.",
+  "proportional": { "range": 0.8, "damage": 0.9 },
+  "effects": [ "COOKOFF", "BLINDS_EYES", "SHOT", "APPLY_SAP" ]
+},{
+  "id": "762_25_magic_earth",
+  "copy-from": "762_25",
+  "type": "AMMO",
+  "name": { "str": "7.62x25mm JHP (enchanted, earth)", "str_pl": "7.62x25mm JHPs (enchanted, earth)" },
+  "description": "A commercial version of the 7.62x25mm cartridge created for the armed forces of Soviet Russia. This bullet has been magically shaped by an Earthshaper to turn into fragments upon impact.",
+  "proportional": { "range": 0.8, "damage": 0.5, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "EXPLOSIVE_RAUFOSS", "SHOT" ]
+},{
+  "id": "762_25_magic_fire",
+  "copy-from": "762_25",
+  "type": "AMMO",
+  "name": { "str": "7.62x25mm JHP (enchanted, fire)", "str_pl": "7.62x25mm JHPs (enchanted, fire)" },
+  "description": "A commercial version of the 7.62x25mm cartridge created for the armed forces of Soviet Russia. This bullet has been imbued with fire from a Kelvinist.",
+  "proportional": { "range": 0.8, "damage": 0.3, "recoil": 1.2 },
+  "effects": [ "COOKOFF", "IGNITE", "SHOT" ]
+},{
+  "id": "762_25_magic_ice",
+  "copy-from": "762_25",
+  "type": "AMMO",
+  "name": { "str": "7.62x25mm JHP (enchanted, ice)", "str_pl": "7.62x25mm JHPs (enchanted, ice)" },
+  "description": "A commercial version of the 7.62x25mm cartridge created for the armed forces of Soviet Russia. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
+  "proportional": { "range": 0.8, "damage": 0.5, "recoil": 0.9 },
+  "effects": [ "COOKOFF", "LARGE_BEANBAG", "SHOT" ]
+},{
+  "id": "762_25_magic_lightning",
+  "copy-from": "762_25",
+  "type": "AMMO",
+  "name": { "str": "7.62x25mm JHP (enchanted, lightning)", "str_pl": "7.62x25mm JHPs (enchanted, lightning)" },
+  "description": "A commercial version of the 7.62x25mm cartridge created for the armed forces of Soviet Russia. This bullet has been imbued with lightning from a Stormshaper and will bounce from enemy to enemy.",
+  "proportional": { "range": 0.8, "damage": 0.3, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "LIGHTNING", "BOUNCE" ]
+},{
+  "id": "762_25_magic_emp",
+  "copy-from": "762_25",
+  "type": "AMMO",
+  "name": { "str": "7.62x25mm JHP (enchanted, EMP)", "str_pl": "7.62x25mm JHPs (enchanted, EMP)" },
+  "description": "A commercial version of the 7.62x25mm cartridge created for the armed forces of Soviet Russia. This bullet has been tinkered with by a technomancer to corrupt robotics.",
+  "proportional": { "range": 0.8, "damage": 0.2, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "EMP" ]
+}]

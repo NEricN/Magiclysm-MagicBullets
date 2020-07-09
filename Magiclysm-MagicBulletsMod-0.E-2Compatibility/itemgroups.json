@@ -1,0 +1,7 @@
+[
+  {
+    "id": "spellbook_tier_1",
+    "type": "item_group",
+    "items": [ [ "book_magic_bullets", 50 ] ]
+  }
+]

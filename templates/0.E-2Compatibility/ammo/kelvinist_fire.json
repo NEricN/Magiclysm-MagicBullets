@@ -1,0 +1,9 @@
+{
+  "id": "<id>_magic_fire",
+  "copy-from": "<id>",
+  "type": "AMMO",
+  "name": { "str": "<name> (enchanted, fire)", "str_pl": "<name>s (enchanted, fire)" },
+  "description": "<sentence> This bullet has been imbued with fire from a Kelvinist.",
+  "proportional": { "range": 0.8, "damage": 0.3, "recoil": 1.2 },
+  "effects": [ "COOKOFF", "IGNITE", "SHOT" ]
+}

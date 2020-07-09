@@ -1,0 +1,49 @@
+[{
+  "id": "4570_sp_magic_nature",
+  "copy-from": "4570_sp",
+  "type": "AMMO",
+  "name": { "str": ".45-70 SP (enchanted, nature)", "str_pl": ".45-70 SPs (enchanted, nature)" },
+  "description": ".45-70 Government ammunition loaded with a 305 grain soft point round. This bullet has been imbued by a druid's will and pollen will explode on landing, which can blind and slow.",
+  "proportional": { "range": 0.8, "damage": 0.9 },
+  "effects": [ "COOKOFF", "BLINDS_EYES", "SHOT", "APPLY_SAP" ]
+},{
+  "id": "4570_sp_magic_earth",
+  "copy-from": "4570_sp",
+  "type": "AMMO",
+  "name": { "str": ".45-70 SP (enchanted, earth)", "str_pl": ".45-70 SPs (enchanted, earth)" },
+  "description": ".45-70 Government ammunition loaded with a 305 grain soft point round. This bullet has been magically shaped by an Earthshaper to turn into fragments upon impact.",
+  "proportional": { "range": 0.8, "damage": 0.5, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "EXPLOSIVE_RAUFOSS", "SHOT" ]
+},{
+  "id": "4570_sp_magic_fire",
+  "copy-from": "4570_sp",
+  "type": "AMMO",
+  "name": { "str": ".45-70 SP (enchanted, fire)", "str_pl": ".45-70 SPs (enchanted, fire)" },
+  "description": ".45-70 Government ammunition loaded with a 305 grain soft point round. This bullet has been imbued with fire from a Kelvinist.",
+  "proportional": { "range": 0.8, "damage": 0.3, "recoil": 1.2 },
+  "effects": [ "COOKOFF", "IGNITE", "SHOT" ]
+},{
+  "id": "4570_sp_magic_ice",
+  "copy-from": "4570_sp",
+  "type": "AMMO",
+  "name": { "str": ".45-70 SP (enchanted, ice)", "str_pl": ".45-70 SPs (enchanted, ice)" },
+  "description": ".45-70 Government ammunition loaded with a 305 grain soft point round. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
+  "proportional": { "range": 0.8, "damage": 0.5, "recoil": 0.9 },
+  "effects": [ "COOKOFF", "LARGE_BEANBAG", "SHOT" ]
+},{
+  "id": "4570_sp_magic_lightning",
+  "copy-from": "4570_sp",
+  "type": "AMMO",
+  "name": { "str": ".45-70 SP (enchanted, lightning)", "str_pl": ".45-70 SPs (enchanted, lightning)" },
+  "description": ".45-70 Government ammunition loaded with a 305 grain soft point round. This bullet has been imbued with lightning from a Stormshaper and will bounce from enemy to enemy.",
+  "proportional": { "range": 0.8, "damage": 0.3, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "LIGHTNING", "BOUNCE" ]
+},{
+  "id": "4570_sp_magic_emp",
+  "copy-from": "4570_sp",
+  "type": "AMMO",
+  "name": { "str": ".45-70 SP (enchanted, EMP)", "str_pl": ".45-70 SPs (enchanted, EMP)" },
+  "description": ".45-70 Government ammunition loaded with a 305 grain soft point round. This bullet has been tinkered with by a technomancer to corrupt robotics.",
+  "proportional": { "range": 0.8, "damage": 0.2, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "EMP" ]
+}]

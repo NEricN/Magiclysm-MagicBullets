@@ -1,0 +1,49 @@
+[{
+  "id": "270win_jsp_magic_nature",
+  "copy-from": "270win_jsp",
+  "type": "AMMO",
+  "name": { "str": ".270 Winchester JSP (enchanted, nature)", "str_pl": ".270 Winchester JSPs (enchanted, nature)" },
+  "description": ".270 Winchester ammunition with 130gr soft point bullets. This bullet has been imbued by a druid's will and pollen will explode on landing, which can blind and slow.",
+  "proportional": { "range": 0.8, "damage": 0.9 },
+  "effects": [ "COOKOFF", "BLINDS_EYES", "SHOT", "APPLY_SAP" ]
+},{
+  "id": "270win_jsp_magic_earth",
+  "copy-from": "270win_jsp",
+  "type": "AMMO",
+  "name": { "str": ".270 Winchester JSP (enchanted, earth)", "str_pl": ".270 Winchester JSPs (enchanted, earth)" },
+  "description": ".270 Winchester ammunition with 130gr soft point bullets. This bullet has been magically shaped by an Earthshaper to turn into fragments upon impact.",
+  "proportional": { "range": 0.8, "damage": 0.5, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "EXPLOSIVE_RAUFOSS", "SHOT" ]
+},{
+  "id": "270win_jsp_magic_fire",
+  "copy-from": "270win_jsp",
+  "type": "AMMO",
+  "name": { "str": ".270 Winchester JSP (enchanted, fire)", "str_pl": ".270 Winchester JSPs (enchanted, fire)" },
+  "description": ".270 Winchester ammunition with 130gr soft point bullets. This bullet has been imbued with fire from a Kelvinist.",
+  "proportional": { "range": 0.8, "damage": 0.3, "recoil": 1.2 },
+  "effects": [ "COOKOFF", "IGNITE", "SHOT" ]
+},{
+  "id": "270win_jsp_magic_ice",
+  "copy-from": "270win_jsp",
+  "type": "AMMO",
+  "name": { "str": ".270 Winchester JSP (enchanted, ice)", "str_pl": ".270 Winchester JSPs (enchanted, ice)" },
+  "description": ".270 Winchester ammunition with 130gr soft point bullets. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
+  "proportional": { "range": 0.8, "damage": 0.5, "recoil": 0.9 },
+  "effects": [ "COOKOFF", "LARGE_BEANBAG", "SHOT" ]
+},{
+  "id": "270win_jsp_magic_lightning",
+  "copy-from": "270win_jsp",
+  "type": "AMMO",
+  "name": { "str": ".270 Winchester JSP (enchanted, lightning)", "str_pl": ".270 Winchester JSPs (enchanted, lightning)" },
+  "description": ".270 Winchester ammunition with 130gr soft point bullets. This bullet has been imbued with lightning from a Stormshaper and will bounce from enemy to enemy.",
+  "proportional": { "range": 0.8, "damage": 0.3, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "LIGHTNING", "BOUNCE" ]
+},{
+  "id": "270win_jsp_magic_emp",
+  "copy-from": "270win_jsp",
+  "type": "AMMO",
+  "name": { "str": ".270 Winchester JSP (enchanted, EMP)", "str_pl": ".270 Winchester JSPs (enchanted, EMP)" },
+  "description": ".270 Winchester ammunition with 130gr soft point bullets. This bullet has been tinkered with by a technomancer to corrupt robotics.",
+  "proportional": { "range": 0.8, "damage": 0.2, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "EMP" ]
+}]
