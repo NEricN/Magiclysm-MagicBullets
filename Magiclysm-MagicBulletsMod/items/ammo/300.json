@@ -1,0 +1,49 @@
+[{
+  "id": "300_winmag_magic_nature",
+  "copy-from": "300_winmag",
+  "type": "AMMO",
+  "name": { "str": ".300 Winchester Magnum (enchanted, nature)", "str_pl": ".300 Winchester Magnums (enchanted, nature)" },
+  "description": ".300 Winchester Magnum rounds with 220gr JHP bullets. This bullet has been imbued by a druid's will and pollen will explode on landing, which can blind and slow.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9} , "recoil": 1.0 },
+  "effects": [ "COOKOFF", "BLINDS_EYES", "SHOT", "APPLY_SAP" ]
+},{
+  "id": "300_winmag_magic_earth",
+  "copy-from": "300_winmag",
+  "type": "AMMO",
+  "name": { "str": ".300 Winchester Magnum (enchanted, earth)", "str_pl": ".300 Winchester Magnums (enchanted, earth)" },
+  "description": ".300 Winchester Magnum rounds with 220gr JHP bullets. This bullet has been magically shaped by an Earthshaper to turn into fragments upon impact.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.5}, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "EXPLOSIVE_RAUFOSS", "SHOT" ]
+},{
+  "id": "300_winmag_magic_fire",
+  "copy-from": "300_winmag",
+  "type": "AMMO",
+  "name": { "str": ".300 Winchester Magnum (enchanted, fire)", "str_pl": ".300 Winchester Magnums (enchanted, fire)" },
+  "description": ".300 Winchester Magnum rounds with 220gr JHP bullets. This bullet has been imbued with fire from a Kelvinist.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.3}, "recoil": 1.2 },
+  "effects": [ "COOKOFF", "IGNITE", "SHOT" ]
+},{
+  "id": "300_winmag_magic_ice",
+  "copy-from": "300_winmag",
+  "type": "AMMO",
+  "name": { "str": ".300 Winchester Magnum (enchanted, ice)", "str_pl": ".300 Winchester Magnums (enchanted, ice)" },
+  "description": ".300 Winchester Magnum rounds with 220gr JHP bullets. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.5}, "recoil": 0.9 },
+  "effects": [ "COOKOFF", "LARGE_BEANBAG", "SHOT" ]
+},{
+  "id": "300_winmag_magic_lightning",
+  "copy-from": "300_winmag",
+  "type": "AMMO",
+  "name": { "str": ".300 Winchester Magnum (enchanted, lightning)", "str_pl": ".300 Winchester Magnums (enchanted, lightning)" },
+  "description": ".300 Winchester Magnum rounds with 220gr JHP bullets. This bullet has been imbued with lightning from a Stormshaper and will bounce from enemy to enemy.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.3}, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "LIGHTNING", "BOUNCE" ]
+},{
+  "id": "300_winmag_magic_emp",
+  "copy-from": "300_winmag",
+  "type": "AMMO",
+  "name": { "str": ".300 Winchester Magnum (enchanted, EMP)", "str_pl": ".300 Winchester Magnums (enchanted, EMP)" },
+  "description": ".300 Winchester Magnum rounds with 220gr JHP bullets. This bullet has been tinkered with by a technomancer to corrupt robotics.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.2}, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "EMP" ]
+}]

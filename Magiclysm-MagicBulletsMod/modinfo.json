@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "magiclysm_magic_bullets",
+    "name": "Magiclysm Magic Bullets",
+    "authors": [ "NEricN" ],
+    "description": "Adds magic bullets. Inspired by https://github.com/YASUYASUYASUYASU/magiclysm_addon.",
+    "category": "content",
+    "dependencies": [ "dda","magiclysm" ]
+  }
+]

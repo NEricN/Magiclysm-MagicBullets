@@ -1,0 +1,9 @@
+{
+  "id": "<id>_magic_emp",
+  "copy-from": "<id>",
+  "type": "AMMO",
+  "name": { "str": "<name> (enchanted, EMP)", "str_pl": "<name>s (enchanted, EMP)" },
+  "description": "<sentence> This bullet has been tinkered with by a technomancer to corrupt robotics.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.2}, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "EMP" ]
+}

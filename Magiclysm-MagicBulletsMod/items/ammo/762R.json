@@ -1,0 +1,49 @@
+[{
+  "id": "762_54R_magic_nature",
+  "copy-from": "762_54R",
+  "type": "AMMO",
+  "name": { "str": "7.62x54mmR (enchanted, nature)", "str_pl": "7.62x54mmRs (enchanted, nature)" },
+  "description": "7.62x54mmR ammunition with 150gr FMJ bullets. This bullet has been imbued by a druid's will and pollen will explode on landing, which can blind and slow.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9} , "recoil": 1.0 },
+  "effects": [ "COOKOFF", "BLINDS_EYES", "SHOT", "APPLY_SAP" ]
+},{
+  "id": "762_54R_magic_earth",
+  "copy-from": "762_54R",
+  "type": "AMMO",
+  "name": { "str": "7.62x54mmR (enchanted, earth)", "str_pl": "7.62x54mmRs (enchanted, earth)" },
+  "description": "7.62x54mmR ammunition with 150gr FMJ bullets. This bullet has been magically shaped by an Earthshaper to turn into fragments upon impact.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.5}, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "EXPLOSIVE_RAUFOSS", "SHOT" ]
+},{
+  "id": "762_54R_magic_fire",
+  "copy-from": "762_54R",
+  "type": "AMMO",
+  "name": { "str": "7.62x54mmR (enchanted, fire)", "str_pl": "7.62x54mmRs (enchanted, fire)" },
+  "description": "7.62x54mmR ammunition with 150gr FMJ bullets. This bullet has been imbued with fire from a Kelvinist.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.3}, "recoil": 1.2 },
+  "effects": [ "COOKOFF", "IGNITE", "SHOT" ]
+},{
+  "id": "762_54R_magic_ice",
+  "copy-from": "762_54R",
+  "type": "AMMO",
+  "name": { "str": "7.62x54mmR (enchanted, ice)", "str_pl": "7.62x54mmRs (enchanted, ice)" },
+  "description": "7.62x54mmR ammunition with 150gr FMJ bullets. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.5}, "recoil": 0.9 },
+  "effects": [ "COOKOFF", "LARGE_BEANBAG", "SHOT" ]
+},{
+  "id": "762_54R_magic_lightning",
+  "copy-from": "762_54R",
+  "type": "AMMO",
+  "name": { "str": "7.62x54mmR (enchanted, lightning)", "str_pl": "7.62x54mmRs (enchanted, lightning)" },
+  "description": "7.62x54mmR ammunition with 150gr FMJ bullets. This bullet has been imbued with lightning from a Stormshaper and will bounce from enemy to enemy.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.3}, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "LIGHTNING", "BOUNCE" ]
+},{
+  "id": "762_54R_magic_emp",
+  "copy-from": "762_54R",
+  "type": "AMMO",
+  "name": { "str": "7.62x54mmR (enchanted, EMP)", "str_pl": "7.62x54mmRs (enchanted, EMP)" },
+  "description": "7.62x54mmR ammunition with 150gr FMJ bullets. This bullet has been tinkered with by a technomancer to corrupt robotics.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.2}, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "EMP" ]
+}]
