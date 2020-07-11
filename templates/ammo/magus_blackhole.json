@@ -1,0 +1,10 @@
+{
+  "id": "<id>_magic_blackhole",
+  "copy-from": "<id>",
+  "type": "AMMO",
+  "name": { "str": "<name> (enchanted, black hole)", "str_pl": "<name>s (enchanted, black hole)" },
+  "description": "<sentence> This bullet has been imbued has had a black hole woven into it by a Magus and will unleash it on hit. It is unstable, and the black hole will randomly appear next to an enemy, not always the one it hits.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.1}, "recoil": 3.0 },
+  "effects": [ "COOKOFF", "SHOT", "NO_EMBED" ],
+  "drop": "blackhole_bomb"
+}
