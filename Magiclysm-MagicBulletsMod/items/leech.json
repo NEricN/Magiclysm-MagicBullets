@@ -1,0 +1,20 @@
+[
+  {
+    "id": "mana_leech_active",
+    "type": "TOOL",
+    "name": { "str": "active mana leecher" },
+    "description": "This mana leecher is harvesting mana from the environment.",
+    "material": [ "stone" ],
+    "symbol": ";",
+    "weight": "1 g",
+    "volume": "250 ml",
+    "color": "white",
+    "initial_charges": 0,
+    "turns_per_charge": 1,
+    "use_action": [
+      { "type": "cast_spell", "spell_id": "soul_recover_mana", "no_fail": true, "level": 10 },
+      {"type": "explosion", "sound_volume": 0, "explosion": {"power": 0} }
+    ],
+    "flags": [ "TRADER_AVOID" ]
+  }
+]

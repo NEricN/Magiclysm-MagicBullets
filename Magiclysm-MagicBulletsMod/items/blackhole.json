@@ -1,0 +1,20 @@
+[
+  {
+    "id": "blackhole_bomb",
+    "type": "TOOL",
+    "name": { "str": "active blackhole bomb" },
+    "description": "This black hole bomb is about to explode.",
+    "material": [ "stone" ],
+    "symbol": ";",
+    "weight": "1 g",
+    "volume": "250 ml",
+    "color": "magenta",
+    "initial_charges": 0,
+    "turns_per_charge": 1,
+    "use_action": [
+      { "type": "cast_spell", "spell_id": "blackhole_pull_all", "no_fail": true, "level": 10 },
+      {"type": "explosion", "sound_volume": 0, "explosion": {"power": 0} }
+    ],
+    "flags": [ "TRADER_AVOID" ]
+  }
+]

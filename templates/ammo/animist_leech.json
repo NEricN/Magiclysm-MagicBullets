@@ -1,0 +1,9 @@
+{
+  "id": "<id>_magic_leech",
+  "copy-from": "<id>",
+  "type": "AMMO",
+  "name": { "str": "<name> (enchanted, leech)", "str_pl": "<name>s (enchanted, leech)" },
+  "description": "<sentence> This bullet has been imbued by an animist to leech mana from its targets.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9} , "recoil": 1.2 },
+  "drop": "mana_leech_active"
+}
