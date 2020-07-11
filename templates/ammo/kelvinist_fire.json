@@ -5,5 +5,5 @@
   "name": { "str": "<name> (enchanted, fire)", "str_pl": "<name>s (enchanted, fire)" },
   "description": "<sentence> This bullet has been imbued with fire from a Kelvinist.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.3}, "recoil": 1.2 },
-  "effects": [ "COOKOFF", "IGNITE", "SHOT" ]
+  "effects": [ "COOKOFF", "IGNITE", "SHOT", "FLAME" ]
 }
