@@ -19,7 +19,7 @@ If you do care, then since CDDA looks for the modinfo.json, you can put this ent
 
 ## Features
 
-All base bullets will have 9 ammo types:
+All base bullets will have 10 ammo types:
 
 Enchantment Type | Class |Description
 --- | --- | ---
@@ -33,6 +33,7 @@ light | Animist | Creates a flashbang effect on hit. Massively decreased bullet 
 mana leech | Animist | Gain 3 mana on hit. Note: It takes 5 mana to make a bullet so this is not infinite. Slightly decreased bullet damage.
 pierce | Magus | Laser on a bullet. Adds armor penetration once the code for armor penetration parsing is fixed. Decreased bullet damage.
 black hole | Magus | Generates a black hole suction on a random enemy. Items and enemies are pulled towards it. Massively decreased bullet damage.
+acid | Biomancer | Splashes acid on hitting.
 
 ## Customization
 
