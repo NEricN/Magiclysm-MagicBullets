@@ -1,4 +1,28 @@
 [{
+  "id": "223_magic_flare",
+  "copy-from": "223",
+  "type": "AMMO",
+  "name": { "str": ".223 Remington (enchanted, light)", "str_pl": ".223 Remingtons (enchanted, light)" },
+  "description": ".223 Remington ammunition with 36gr JHP bullets. This bullet has been imbued by an animist to burst in a flash of light.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.2} , "recoil": 1.2 },
+  "effects": [ "COOKOFF", "SHOT", "FLASHBANG" ]
+},{
+  "id": "223_magic_leech",
+  "copy-from": "223",
+  "type": "AMMO",
+  "name": { "str": ".223 Remington (enchanted, leech)", "str_pl": ".223 Remingtons (enchanted, leech)" },
+  "description": ".223 Remington ammunition with 36gr JHP bullets. This bullet has been imbued by an animist to leech mana from its targets.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9} , "recoil": 1.2 },
+  "drop": "mana_leech_active"
+},{
+  "id": "223_magic_acid",
+  "copy-from": "223",
+  "type": "AMMO",
+  "name": { "str": ".223 Remington (enchanted, acid)", "str_pl": ".223 Remingtons (enchanted, acid)" },
+  "description": ".223 Remington ammunition with 36gr JHP bullets. This bullet has been coated by a biomancer's own acid.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.3} , "recoil": 1.2 },
+  "effects": [ "COOKOFF", "SHOT", "ACIDBOMB", "NO_EMBED" ]
+},{
   "id": "223_magic_nature",
   "copy-from": "223",
   "type": "AMMO",
@@ -21,7 +45,7 @@
   "name": { "str": ".223 Remington (enchanted, fire)", "str_pl": ".223 Remingtons (enchanted, fire)" },
   "description": ".223 Remington ammunition with 36gr JHP bullets. This bullet has been imbued with fire from a Kelvinist.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.3}, "recoil": 1.2 },
-  "effects": [ "COOKOFF", "IGNITE", "SHOT" ]
+  "effects": [ "COOKOFF", "IGNITE", "SHOT", "FLAME" ]
 },{
   "id": "223_magic_ice",
   "copy-from": "223",
@@ -30,6 +54,24 @@
   "description": ".223 Remington ammunition with 36gr JHP bullets. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.5}, "recoil": 0.9 },
   "effects": [ "COOKOFF", "LARGE_BEANBAG", "SHOT" ]
+},{
+  "id": "223_magic_blackhole",
+  "copy-from": "223",
+  "type": "AMMO",
+  "name": { "str": ".223 Remington (enchanted, black hole)", "str_pl": ".223 Remingtons (enchanted, black hole)" },
+  "description": ".223 Remington ammunition with 36gr JHP bullets. This bullet has been imbued has had a black hole woven into it by a Magus and will unleash it on hit. It is unstable, and the black hole will randomly appear next to an enemy, not always the one it hits.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.1}, "recoil": 3.0 },
+  "effects": [ "COOKOFF", "SHOT", "NO_EMBED" ],
+  "drop": "blackhole_bomb"
+},{
+  "id": "223_magic_laser",
+  "copy-from": "223",
+  "type": "AMMO",
+  "name": { "str": ".223 Remington (enchanted, piercing)", "str_pl": ".223 Remingtons (enchanted, piercing)" },
+  "description": ".223 Remington ammunition with 36gr JHP bullets. This bullet has been imbued with raw magic from a Magus to pierce armor.",
+  "proportional": { "range": 1.1, "recoil": 3.0 },
+  "relative": { "damage": {"damage_type": "bullet", "amount": -10, "armor_penetration": 20} },
+  "effects": [ "COOKOFF", "LASER", "SHOT" ]
 },{
   "id": "223_magic_lightning",
   "copy-from": "223",
@@ -46,6 +88,30 @@
   "description": ".223 Remington ammunition with 36gr JHP bullets. This bullet has been tinkered with by a technomancer to corrupt robotics.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.2}, "recoil": 2.0 },
   "effects": [ "COOKOFF", "EMP" ]
+},{
+  "id": "556_magic_flare",
+  "copy-from": "556",
+  "type": "AMMO",
+  "name": { "str": "5.56 NATO M855A1 (enchanted, light)", "str_pl": "5.56 NATO M855A1s (enchanted, light)" },
+  "description": "5.56x45mm ammunition with a 62gr FMJ bullet containing a steel penetrator. This bullet has been imbued by an animist to burst in a flash of light.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.2} , "recoil": 1.2 },
+  "effects": [ "COOKOFF", "SHOT", "FLASHBANG" ]
+},{
+  "id": "556_magic_leech",
+  "copy-from": "556",
+  "type": "AMMO",
+  "name": { "str": "5.56 NATO M855A1 (enchanted, leech)", "str_pl": "5.56 NATO M855A1s (enchanted, leech)" },
+  "description": "5.56x45mm ammunition with a 62gr FMJ bullet containing a steel penetrator. This bullet has been imbued by an animist to leech mana from its targets.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9} , "recoil": 1.2 },
+  "drop": "mana_leech_active"
+},{
+  "id": "556_magic_acid",
+  "copy-from": "556",
+  "type": "AMMO",
+  "name": { "str": "5.56 NATO M855A1 (enchanted, acid)", "str_pl": "5.56 NATO M855A1s (enchanted, acid)" },
+  "description": "5.56x45mm ammunition with a 62gr FMJ bullet containing a steel penetrator. This bullet has been coated by a biomancer's own acid.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.3} , "recoil": 1.2 },
+  "effects": [ "COOKOFF", "SHOT", "ACIDBOMB", "NO_EMBED" ]
 },{
   "id": "556_magic_nature",
   "copy-from": "556",
@@ -69,7 +135,7 @@
   "name": { "str": "5.56 NATO M855A1 (enchanted, fire)", "str_pl": "5.56 NATO M855A1s (enchanted, fire)" },
   "description": "5.56x45mm ammunition with a 62gr FMJ bullet containing a steel penetrator. This bullet has been imbued with fire from a Kelvinist.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.3}, "recoil": 1.2 },
-  "effects": [ "COOKOFF", "IGNITE", "SHOT" ]
+  "effects": [ "COOKOFF", "IGNITE", "SHOT", "FLAME" ]
 },{
   "id": "556_magic_ice",
   "copy-from": "556",
@@ -78,6 +144,24 @@
   "description": "5.56x45mm ammunition with a 62gr FMJ bullet containing a steel penetrator. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.5}, "recoil": 0.9 },
   "effects": [ "COOKOFF", "LARGE_BEANBAG", "SHOT" ]
+},{
+  "id": "556_magic_blackhole",
+  "copy-from": "556",
+  "type": "AMMO",
+  "name": { "str": "5.56 NATO M855A1 (enchanted, black hole)", "str_pl": "5.56 NATO M855A1s (enchanted, black hole)" },
+  "description": "5.56x45mm ammunition with a 62gr FMJ bullet containing a steel penetrator. This bullet has been imbued has had a black hole woven into it by a Magus and will unleash it on hit. It is unstable, and the black hole will randomly appear next to an enemy, not always the one it hits.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.1}, "recoil": 3.0 },
+  "effects": [ "COOKOFF", "SHOT", "NO_EMBED" ],
+  "drop": "blackhole_bomb"
+},{
+  "id": "556_magic_laser",
+  "copy-from": "556",
+  "type": "AMMO",
+  "name": { "str": "5.56 NATO M855A1 (enchanted, piercing)", "str_pl": "5.56 NATO M855A1s (enchanted, piercing)" },
+  "description": "5.56x45mm ammunition with a 62gr FMJ bullet containing a steel penetrator. This bullet has been imbued with raw magic from a Magus to pierce armor.",
+  "proportional": { "range": 1.1, "recoil": 3.0 },
+  "relative": { "damage": {"damage_type": "bullet", "amount": -10, "armor_penetration": 20} },
+  "effects": [ "COOKOFF", "LASER", "SHOT" ]
 },{
   "id": "556_magic_lightning",
   "copy-from": "556",

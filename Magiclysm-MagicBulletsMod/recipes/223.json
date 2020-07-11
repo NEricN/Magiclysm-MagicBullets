@@ -1,5 +1,59 @@
 [{
   "type": "recipe",
+  "result": "223_magic_flare",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_animist",  1 ] ],
+    [ [ "223",  1 ] ]
+  ]
+},{
+  "type": "recipe",
+  "result": "223_magic_leech",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_animist",  1 ] ],
+    [ [ "223",  1 ] ]
+  ]
+},{
+  "type": "recipe",
+  "result": "223_magic_acid",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_biomancer",  1 ] ],
+    [ [ "223",  1 ] ]
+  ]
+},{
+  "type": "recipe",
   "result": "223_magic_nature",
   "category": "CC_ENCHANTED",
   "subcategory": "CSC_ENCHANTED_AMMO",
@@ -72,6 +126,42 @@
   ]
 },{
   "type": "recipe",
+  "result": "223_magic_blackhole",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_magus",  1 ] ],
+    [ [ "223",  1 ] ]
+  ]
+},{
+  "type": "recipe",
+  "result": "223_magic_laser",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_magus",  1 ] ],
+    [ [ "223",  1 ] ]
+  ]
+},{
+  "type": "recipe",
   "result": "223_magic_lightning",
   "category": "CC_ENCHANTED",
   "subcategory": "CSC_ENCHANTED_AMMO",
@@ -105,6 +195,60 @@
   "components": [
     [ [ "rune_technomancer",  1 ] ],
     [ [ "223",  1 ] ]
+  ]
+},{
+  "type": "recipe",
+  "result": "556_magic_flare",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_animist",  1 ] ],
+    [ [ "556",  1 ] ]
+  ]
+},{
+  "type": "recipe",
+  "result": "556_magic_leech",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_animist",  1 ] ],
+    [ [ "556",  1 ] ]
+  ]
+},{
+  "type": "recipe",
+  "result": "556_magic_acid",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_biomancer",  1 ] ],
+    [ [ "556",  1 ] ]
   ]
 },{
   "type": "recipe",
@@ -176,6 +320,42 @@
   "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
   "components": [
     [ [ "rune_kelvinist",  1 ] ],
+    [ [ "556",  1 ] ]
+  ]
+},{
+  "type": "recipe",
+  "result": "556_magic_blackhole",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_magus",  1 ] ],
+    [ [ "556",  1 ] ]
+  ]
+},{
+  "type": "recipe",
+  "result": "556_magic_laser",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_magus",  1 ] ],
     [ [ "556",  1 ] ]
   ]
 },{
