@@ -1,0 +1,10 @@
+{
+  "id": "<id>_magic_laser",
+  "copy-from": "<id>",
+  "type": "AMMO",
+  "name": { "str": "<name> (enchanted, piercing)", "str_pl": "<name>s (enchanted, piercing)" },
+  "description": "<sentence> This bullet has been imbued with raw magic from a Magus to pierce armor.",
+  "proportional": { "range": 1.1, "recoil": 3.0 },
+  "relative": { "damage": {"damage_type": "bullet", "amount": -10, "armor_penetration": 20} },
+  "effects": [ "COOKOFF", "LASER", "SHOT" ]
+}
