@@ -52,8 +52,8 @@
   "type": "AMMO",
   "name": { "str": "00 shot (enchanted, ice)", "str_pl": "00 shots (enchanted, ice)" },
   "description": "A shell filled with metal pellets. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
-  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.5}, "recoil": 0.9 },
-  "effects": [ "COOKOFF", "LARGE_BEANBAG", "SHOT" ]
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9}, "recoil": 0.9 },
+  "effects": [ "COOKOFF", "LARGE_BEANBAG", "CHILL", "SHOT" ]
 },{
   "id": "shot_00_magic_blackhole",
   "copy-from": "shot_00",

@@ -52,8 +52,8 @@
   "type": "AMMO",
   "name": { "str": ".30-06 Springfield (enchanted, ice)", "str_pl": ".30-06 Springfields (enchanted, ice)" },
   "description": ".30-06 Springfield rounds with 165gr soft point bullets. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
-  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.5}, "recoil": 0.9 },
-  "effects": [ "COOKOFF", "LARGE_BEANBAG", "SHOT" ]
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9}, "recoil": 0.9 },
+  "effects": [ "COOKOFF", "LARGE_BEANBAG", "CHILL", "SHOT" ]
 },{
   "id": "3006_magic_blackhole",
   "copy-from": "3006",

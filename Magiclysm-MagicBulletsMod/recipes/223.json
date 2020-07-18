@@ -6,6 +6,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -24,6 +25,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -42,6 +44,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -60,6 +63,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -78,6 +82,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -96,6 +101,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -114,6 +120,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -132,6 +139,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -150,6 +158,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -168,6 +177,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -186,6 +196,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -204,6 +215,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -222,6 +234,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -240,6 +253,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -258,6 +272,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -276,6 +291,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -294,6 +310,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -312,6 +329,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -330,6 +348,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -348,6 +367,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -366,6 +386,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [
@@ -384,6 +405,7 @@
   "skill_used": "fabrication",
   "skills_required": [ "spellcraft", 4 ],
   "difficulty": 4,
+  "charges": 1,
   "time": "1 m",
   "book_learn": [ [ "book_magic_bullets", 4 ] ],
   "qualities": [

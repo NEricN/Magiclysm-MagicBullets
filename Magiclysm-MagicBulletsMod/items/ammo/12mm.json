@@ -52,8 +52,8 @@
   "type": "AMMO",
   "name": { "str": "H&K 12mm (enchanted, ice)", "str_pl": "H&K 12mms (enchanted, ice)" },
   "description": "The Heckler & Koch 12mm projectiles are used in H&K railguns. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
-  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.5}, "recoil": 0.9 },
-  "effects": [ "COOKOFF", "LARGE_BEANBAG", "SHOT" ]
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9}, "recoil": 0.9 },
+  "effects": [ "COOKOFF", "LARGE_BEANBAG", "CHILL", "SHOT" ]
 },{
   "id": "12mm_magic_blackhole",
   "copy-from": "12mm",

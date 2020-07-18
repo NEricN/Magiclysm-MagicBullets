@@ -52,8 +52,8 @@
   "type": "AMMO",
   "name": { "str": "4.6x30mm (enchanted, ice)", "str_pl": "4.6x30mms (enchanted, ice)" },
   "description": "4.6x30mm ammunition with 31gr copper plated steel bullets. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
-  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.5}, "recoil": 0.9 },
-  "effects": [ "COOKOFF", "LARGE_BEANBAG", "SHOT" ]
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9}, "recoil": 0.9 },
+  "effects": [ "COOKOFF", "LARGE_BEANBAG", "CHILL", "SHOT" ]
 },{
   "id": "46mm_magic_blackhole",
   "copy-from": "46mm",

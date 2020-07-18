@@ -52,8 +52,8 @@
   "type": "AMMO",
   "name": { "str": ".270 Winchester JSP (enchanted, ice)", "str_pl": ".270 Winchester JSPs (enchanted, ice)" },
   "description": ".270 Winchester ammunition with 130gr soft point bullets. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
-  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.5}, "recoil": 0.9 },
-  "effects": [ "COOKOFF", "LARGE_BEANBAG", "SHOT" ]
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9}, "recoil": 0.9 },
+  "effects": [ "COOKOFF", "LARGE_BEANBAG", "CHILL", "SHOT" ]
 },{
   "id": "270win_jsp_magic_blackhole",
   "copy-from": "270win_jsp",
