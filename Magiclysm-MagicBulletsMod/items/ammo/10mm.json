@@ -52,8 +52,8 @@
   "type": "AMMO",
   "name": { "str": "10mm Auto FMJ (enchanted, ice)", "str_pl": "10mm Auto FMJs (enchanted, ice)" },
   "description": "A jacketed 10mm Auto round. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
-  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.5}, "recoil": 0.9 },
-  "effects": [ "COOKOFF", "LARGE_BEANBAG", "SHOT" ]
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9}, "recoil": 0.9 },
+  "effects": [ "COOKOFF", "LARGE_BEANBAG", "CHILL", "SHOT" ]
 },{
   "id": "10mm_fmj_magic_blackhole",
   "copy-from": "10mm_fmj",

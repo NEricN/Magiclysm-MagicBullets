@@ -52,8 +52,8 @@
   "type": "AMMO",
   "name": { "str": "9x18mm 57-N-181S (enchanted, ice)", "str_pl": "9x18mm 57-N-181Ss (enchanted, ice)" },
   "description": "9x18mm Makarov ammunition with 93gr steel core FMJ bullets. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
-  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.5}, "recoil": 0.9 },
-  "effects": [ "COOKOFF", "LARGE_BEANBAG", "SHOT" ]
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9}, "recoil": 0.9 },
+  "effects": [ "COOKOFF", "LARGE_BEANBAG", "CHILL", "SHOT" ]
 },{
   "id": "9x18mm_magic_blackhole",
   "copy-from": "9x18mm",

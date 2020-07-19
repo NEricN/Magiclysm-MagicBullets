@@ -1,0 +1,58 @@
+[
+  {
+    "id": "CHILL",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_chill", "intensity_min": 1, "intensity_max": 3, "size": 3 }
+  },
+  {
+    "id": "fd_chill",
+    "type": "field_type",
+    "intensity_levels": [
+      {
+        "name": "light frost",
+        "sym": "~",
+        "translucency": 0.7,
+        "effects": [
+          { "effect_id": "frosted", "intensity": 1, "min_duration": "1 m", "immune_in_vehicle": false, "is_environmental": false }
+        ]
+      },
+      {
+        "name": "frost",
+        "translucency": 0.4,
+        "effects": [
+          { "effect_id": "frosted", "intensity": 2, "min_duration": "1 m", "immune_in_vehicle": false, "is_environmental": false }
+        ]
+      },
+      {
+        "name": "thick frost",
+        "translucency": 0.1,
+        "effects": [
+          { "effect_id": "frosted", "intensity": 3, "min_duration": "1 m", "immune_in_vehicle": false, "is_environmental": false }
+        ]
+      }
+    ],
+    "priority": 2,
+    "phase": "gas",
+    "display_items": true,
+    "display_field": true,
+    "half_life": "2 minutes",
+    "decay_amount_factor": 3,
+    "looks_like": "fd_cold_air2"
+  },
+  {
+    "type": "effect_type",
+    "id": "frosted",
+    "name": [ "Frosted" ],
+    "desc": [ "You are covered in frost!" ],
+    "apply_message": "You're covered in frost!",
+    "rating": "bad",
+    "miss_messages": [ [ "The frost constrict your movement.", 4 ] ],
+    "remove_message": "The frost has melted off.",
+    "decay_messages": [ [ "The frost is melting off.", "good" ] ],
+    "max_intensity": 3,
+    "base_mods": { "speed_mod": [ -60 ] },
+    "scaling_mods": { "speed_mod": [ -20 ] },
+    "show_in_info": true,
+    "int_dur_factor": "2 m"
+  }
+]

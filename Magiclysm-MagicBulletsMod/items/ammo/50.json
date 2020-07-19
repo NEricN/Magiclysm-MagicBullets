@@ -52,8 +52,8 @@
   "type": "AMMO",
   "name": { "str": ".50 BMG M33 Ball (enchanted, ice)", "str_pl": ".50 BMG M33 Balls (enchanted, ice)" },
   "description": ".50 BMG ammunition with mild steel cored 661gr FMJ bullets. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
-  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.5}, "recoil": 0.9 },
-  "effects": [ "COOKOFF", "LARGE_BEANBAG", "SHOT" ]
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9}, "recoil": 0.9 },
+  "effects": [ "COOKOFF", "LARGE_BEANBAG", "CHILL", "SHOT" ]
 },{
   "id": "50bmg_magic_blackhole",
   "copy-from": "50bmg",
