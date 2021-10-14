@@ -1,9 +1,0 @@
-{
-  "id": "<id>_magic_earth",
-  "copy-from": "<id>",
-  "type": "AMMO",
-  "name": { "str": "<name> (enchanted, earth)", "str_pl": "<name>s (enchanted, earth)" },
-  "description": "<sentence> This bullet has been magically shaped by an Earthshaper to turn into fragments upon impact.",
-  "proportional": { "range": 0.8, "damage": 0.5, "recoil": 2.0 },
-  "effects": [ "COOKOFF", "EXPLOSIVE_RAUFOSS", "SHOT" ]
-}

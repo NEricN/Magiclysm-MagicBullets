@@ -1,9 +1,0 @@
-{
-  "id": "<id>_magic_lightning",
-  "copy-from": "<id>",
-  "type": "AMMO",
-  "name": { "str": "<name> (enchanted, lightning)", "str_pl": "<name>s (enchanted, lightning)" },
-  "description": "<sentence> This bullet has been imbued with lightning from a Stormshaper and will bounce from enemy to enemy.",
-  "proportional": { "range": 0.8, "damage": 0.3, "recoil": 2.0 },
-  "effects": [ "COOKOFF", "LIGHTNING", "BOUNCE" ]
-}
