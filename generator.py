@@ -7,6 +7,9 @@ _OUTPUT_DATA_PATH = 'Magiclysm-MagicBulletsMod'
 
 _BULLET_WHITELIST = frozenset(['556'])
 
+class NoNameException(Exception):
+    pass
+
 def extract_first_sentence(description):
     sentence_index = description.find('. ') + 1
     return description[:sentence_index if sentence_index > 0 else len(description)].strip()
@@ -23,6 +26,13 @@ def extract_bullet_data(filename):
 
     return base_bullets
 
+def find_name(name_dict):
+    if 'str' in name_dict:
+        return name_dict['str']
+    if 'str_sp' in name_dict:
+        return name_dict['str_sp']
+    raise NoNameException
+
 def process_bullet_file(filename, item_templates, recipe_templates):
     datum = extract_bullet_data(os.path.join(_SRC_DATA_PATH, filename))
 
@@ -32,7 +42,11 @@ def process_bullet_file(filename, item_templates, recipe_templates):
     for data in datum:
         # Make sure fields exist or else error here.
         data_id = data['id']
-        data_name = data['name']['str']
+        try:
+            data_name = find_name(data['name'])
+        except NoNameException:
+            print('{} has no findable name'.format(data_id))
+            continue
         data_description = data.get('description', '')
         sentence = extract_first_sentence(data_description)
 
