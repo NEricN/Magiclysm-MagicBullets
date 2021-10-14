@@ -2,64 +2,64 @@
   "id": "357mag_fmj_magic_flare",
   "copy-from": "357mag_fmj",
   "type": "AMMO",
-  "name": { "str": ".357 magnum FMJ (enchanted, light)", "str_pl": ".357 magnum FMJs (enchanted, light)" },
-  "description": "Jacketed .357 magnum ammunition. This bullet has been imbued by an animist to burst in a flash of light.",
+  "name": { "str": ".357 Magnum FMJ (enchanted, light)", "str_pl": ".357 Magnum FMJs (enchanted, light)" },
+  "description": "Jacketed .357 Magnum ammunition. This bullet has been imbued by an animist to burst in a flash of light.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.2} , "recoil": 1.2 },
   "effects": [ "COOKOFF", "SHOT", "FLASHBANG" ]
 },{
   "id": "357mag_fmj_magic_leech",
   "copy-from": "357mag_fmj",
   "type": "AMMO",
-  "name": { "str": ".357 magnum FMJ (enchanted, leech)", "str_pl": ".357 magnum FMJs (enchanted, leech)" },
-  "description": "Jacketed .357 magnum ammunition. This bullet has been imbued by an animist to leech mana from its targets.",
+  "name": { "str": ".357 Magnum FMJ (enchanted, leech)", "str_pl": ".357 Magnum FMJs (enchanted, leech)" },
+  "description": "Jacketed .357 Magnum ammunition. This bullet has been imbued by an animist to leech mana from its targets.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9} , "recoil": 1.2 },
   "drop": "mana_leech_active"
 },{
   "id": "357mag_fmj_magic_acid",
   "copy-from": "357mag_fmj",
   "type": "AMMO",
-  "name": { "str": ".357 magnum FMJ (enchanted, acid)", "str_pl": ".357 magnum FMJs (enchanted, acid)" },
-  "description": "Jacketed .357 magnum ammunition. This bullet has been coated by a biomancer's own acid.",
+  "name": { "str": ".357 Magnum FMJ (enchanted, acid)", "str_pl": ".357 Magnum FMJs (enchanted, acid)" },
+  "description": "Jacketed .357 Magnum ammunition. This bullet has been coated by a biomancer's own acid.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.3} , "recoil": 1.2 },
   "effects": [ "COOKOFF", "SHOT", "ACIDBOMB", "NO_EMBED" ]
 },{
   "id": "357mag_fmj_magic_nature",
   "copy-from": "357mag_fmj",
   "type": "AMMO",
-  "name": { "str": ".357 magnum FMJ (enchanted, nature)", "str_pl": ".357 magnum FMJs (enchanted, nature)" },
-  "description": "Jacketed .357 magnum ammunition. This bullet has been imbued by a druid's will and pollen will explode on landing, which can blind and slow.",
-  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9} , "recoil": 1.0 },
+  "name": { "str": ".357 Magnum FMJ (enchanted, nature)", "str_pl": ".357 Magnum FMJs (enchanted, nature)" },
+  "description": "Jacketed .357 Magnum ammunition. This bullet has been imbued by a druid's will and pollen will explode on landing, which can blind and slow.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9}  },
   "effects": [ "COOKOFF", "BLINDS_EYES", "SHOT", "APPLY_SAP" ]
 },{
   "id": "357mag_fmj_magic_earth",
   "copy-from": "357mag_fmj",
   "type": "AMMO",
-  "name": { "str": ".357 magnum FMJ (enchanted, earth)", "str_pl": ".357 magnum FMJs (enchanted, earth)" },
-  "description": "Jacketed .357 magnum ammunition. This bullet has been magically shaped by an Earthshaper to turn into fragments upon impact.",
+  "name": { "str": ".357 Magnum FMJ (enchanted, earth)", "str_pl": ".357 Magnum FMJs (enchanted, earth)" },
+  "description": "Jacketed .357 Magnum ammunition. This bullet has been magically shaped by an Earthshaper to turn into fragments upon impact.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.5}, "recoil": 2.0 },
   "effects": [ "COOKOFF", "EXPLOSIVE_RAUFOSS", "SHOT" ]
 },{
   "id": "357mag_fmj_magic_fire",
   "copy-from": "357mag_fmj",
   "type": "AMMO",
-  "name": { "str": ".357 magnum FMJ (enchanted, fire)", "str_pl": ".357 magnum FMJs (enchanted, fire)" },
-  "description": "Jacketed .357 magnum ammunition. This bullet has been imbued with fire from a Kelvinist.",
+  "name": { "str": ".357 Magnum FMJ (enchanted, fire)", "str_pl": ".357 Magnum FMJs (enchanted, fire)" },
+  "description": "Jacketed .357 Magnum ammunition. This bullet has been imbued with fire from a Kelvinist.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.3}, "recoil": 1.2 },
   "effects": [ "COOKOFF", "IGNITE", "SHOT", "FLAME" ]
 },{
   "id": "357mag_fmj_magic_ice",
   "copy-from": "357mag_fmj",
   "type": "AMMO",
-  "name": { "str": ".357 magnum FMJ (enchanted, ice)", "str_pl": ".357 magnum FMJs (enchanted, ice)" },
-  "description": "Jacketed .357 magnum ammunition. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
+  "name": { "str": ".357 Magnum FMJ (enchanted, ice)", "str_pl": ".357 Magnum FMJs (enchanted, ice)" },
+  "description": "Jacketed .357 Magnum ammunition. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9}, "recoil": 0.9 },
   "effects": [ "COOKOFF", "LARGE_BEANBAG", "CHILL", "SHOT" ]
 },{
   "id": "357mag_fmj_magic_blackhole",
   "copy-from": "357mag_fmj",
   "type": "AMMO",
-  "name": { "str": ".357 magnum FMJ (enchanted, black hole)", "str_pl": ".357 magnum FMJs (enchanted, black hole)" },
-  "description": "Jacketed .357 magnum ammunition. This bullet has been imbued has had a black hole woven into it by a Magus and will unleash it on hit. It is unstable, and the black hole will randomly appear next to an enemy, not always the one it hits.",
+  "name": { "str": ".357 Magnum FMJ (enchanted, black hole)", "str_pl": ".357 Magnum FMJs (enchanted, black hole)" },
+  "description": "Jacketed .357 Magnum ammunition. This bullet has been imbued has had a black hole woven into it by a Magus and will unleash it on hit. It is unstable, and the black hole will randomly appear next to an enemy, not always the one it hits.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.1}, "recoil": 3.0 },
   "effects": [ "COOKOFF", "SHOT", "NO_EMBED" ],
   "drop": "blackhole_bomb"
@@ -67,8 +67,8 @@
   "id": "357mag_fmj_magic_laser",
   "copy-from": "357mag_fmj",
   "type": "AMMO",
-  "name": { "str": ".357 magnum FMJ (enchanted, piercing)", "str_pl": ".357 magnum FMJs (enchanted, piercing)" },
-  "description": "Jacketed .357 magnum ammunition. This bullet has been imbued with raw magic from a Magus to pierce armor.",
+  "name": { "str": ".357 Magnum FMJ (enchanted, piercing)", "str_pl": ".357 Magnum FMJs (enchanted, piercing)" },
+  "description": "Jacketed .357 Magnum ammunition. This bullet has been imbued with raw magic from a Magus to pierce armor.",
   "proportional": { "range": 1.1, "recoil": 3.0 },
   "relative": { "damage": {"damage_type": "bullet", "amount": -10, "armor_penetration": 20} },
   "effects": [ "COOKOFF", "LASER", "SHOT" ]
@@ -76,16 +76,16 @@
   "id": "357mag_fmj_magic_lightning",
   "copy-from": "357mag_fmj",
   "type": "AMMO",
-  "name": { "str": ".357 magnum FMJ (enchanted, lightning)", "str_pl": ".357 magnum FMJs (enchanted, lightning)" },
-  "description": "Jacketed .357 magnum ammunition. This bullet has been imbued with lightning from a Stormshaper and will bounce from enemy to enemy.",
+  "name": { "str": ".357 Magnum FMJ (enchanted, lightning)", "str_pl": ".357 Magnum FMJs (enchanted, lightning)" },
+  "description": "Jacketed .357 Magnum ammunition. This bullet has been imbued with lightning from a Stormshaper and will bounce from enemy to enemy.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.3}, "recoil": 2.0 },
   "effects": [ "COOKOFF", "LIGHTNING", "BOUNCE" ]
 },{
   "id": "357mag_fmj_magic_emp",
   "copy-from": "357mag_fmj",
   "type": "AMMO",
-  "name": { "str": ".357 magnum FMJ (enchanted, EMP)", "str_pl": ".357 magnum FMJs (enchanted, EMP)" },
-  "description": "Jacketed .357 magnum ammunition. This bullet has been tinkered with by a technomancer to corrupt robotics.",
+  "name": { "str": ".357 Magnum FMJ (enchanted, EMP)", "str_pl": ".357 Magnum FMJs (enchanted, EMP)" },
+  "description": "Jacketed .357 Magnum ammunition. This bullet has been tinkered with by a technomancer to corrupt robotics.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.2}, "recoil": 2.0 },
   "effects": [ "COOKOFF", "EMP" ]
 }]

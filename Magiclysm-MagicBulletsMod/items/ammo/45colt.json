@@ -28,7 +28,7 @@
   "type": "AMMO",
   "name": { "str": ".45 Colt JHP (enchanted, nature)", "str_pl": ".45 Colt JHPs (enchanted, nature)" },
   "description": ".45 Colt ammunition with 250gr jacketed hollow point bullets. This bullet has been imbued by a druid's will and pollen will explode on landing, which can blind and slow.",
-  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9} , "recoil": 1.0 },
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9}  },
   "effects": [ "COOKOFF", "BLINDS_EYES", "SHOT", "APPLY_SAP" ]
 },{
   "id": "45colt_jhp_magic_earth",

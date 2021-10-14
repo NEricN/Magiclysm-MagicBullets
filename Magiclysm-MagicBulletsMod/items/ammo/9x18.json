@@ -28,7 +28,7 @@
   "type": "AMMO",
   "name": { "str": "9x18mm 57-N-181S (enchanted, nature)", "str_pl": "9x18mm 57-N-181Ss (enchanted, nature)" },
   "description": "9x18mm Makarov ammunition with 93gr steel core FMJ bullets. This bullet has been imbued by a druid's will and pollen will explode on landing, which can blind and slow.",
-  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9} , "recoil": 1.0 },
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9}  },
   "effects": [ "COOKOFF", "BLINDS_EYES", "SHOT", "APPLY_SAP" ]
 },{
   "id": "9x18mm_magic_earth",

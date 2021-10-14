@@ -28,7 +28,7 @@
   "type": "AMMO",
   "name": { "str": "H&K 12mm (enchanted, nature)", "str_pl": "H&K 12mms (enchanted, nature)" },
   "description": "The Heckler & Koch 12mm projectiles are used in H&K railguns. This bullet has been imbued by a druid's will and pollen will explode on landing, which can blind and slow.",
-  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9} , "recoil": 1.0 },
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9}  },
   "effects": [ "COOKOFF", "BLINDS_EYES", "SHOT", "APPLY_SAP" ]
 },{
   "id": "12mm_magic_earth",

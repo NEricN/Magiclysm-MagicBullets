@@ -1,0 +1,91 @@
+[{
+  "id": "8mm_caseless_magic_flare",
+  "copy-from": "8mm_caseless",
+  "type": "AMMO",
+  "name": { "str": "8x40mm caseless (enchanted, light)", "str_pl": "8x40mm caselesss (enchanted, light)" },
+  "description": "8x40mm caseless rounds. This bullet has been imbued by an animist to burst in a flash of light.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.2} , "recoil": 1.2 },
+  "effects": [ "COOKOFF", "SHOT", "FLASHBANG" ]
+},{
+  "id": "8mm_caseless_magic_leech",
+  "copy-from": "8mm_caseless",
+  "type": "AMMO",
+  "name": { "str": "8x40mm caseless (enchanted, leech)", "str_pl": "8x40mm caselesss (enchanted, leech)" },
+  "description": "8x40mm caseless rounds. This bullet has been imbued by an animist to leech mana from its targets.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9} , "recoil": 1.2 },
+  "drop": "mana_leech_active"
+},{
+  "id": "8mm_caseless_magic_acid",
+  "copy-from": "8mm_caseless",
+  "type": "AMMO",
+  "name": { "str": "8x40mm caseless (enchanted, acid)", "str_pl": "8x40mm caselesss (enchanted, acid)" },
+  "description": "8x40mm caseless rounds. This bullet has been coated by a biomancer's own acid.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.3} , "recoil": 1.2 },
+  "effects": [ "COOKOFF", "SHOT", "ACIDBOMB", "NO_EMBED" ]
+},{
+  "id": "8mm_caseless_magic_nature",
+  "copy-from": "8mm_caseless",
+  "type": "AMMO",
+  "name": { "str": "8x40mm caseless (enchanted, nature)", "str_pl": "8x40mm caselesss (enchanted, nature)" },
+  "description": "8x40mm caseless rounds. This bullet has been imbued by a druid's will and pollen will explode on landing, which can blind and slow.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9}  },
+  "effects": [ "COOKOFF", "BLINDS_EYES", "SHOT", "APPLY_SAP" ]
+},{
+  "id": "8mm_caseless_magic_earth",
+  "copy-from": "8mm_caseless",
+  "type": "AMMO",
+  "name": { "str": "8x40mm caseless (enchanted, earth)", "str_pl": "8x40mm caselesss (enchanted, earth)" },
+  "description": "8x40mm caseless rounds. This bullet has been magically shaped by an Earthshaper to turn into fragments upon impact.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.5}, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "EXPLOSIVE_RAUFOSS", "SHOT" ]
+},{
+  "id": "8mm_caseless_magic_fire",
+  "copy-from": "8mm_caseless",
+  "type": "AMMO",
+  "name": { "str": "8x40mm caseless (enchanted, fire)", "str_pl": "8x40mm caselesss (enchanted, fire)" },
+  "description": "8x40mm caseless rounds. This bullet has been imbued with fire from a Kelvinist.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.3}, "recoil": 1.2 },
+  "effects": [ "COOKOFF", "IGNITE", "SHOT", "FLAME" ]
+},{
+  "id": "8mm_caseless_magic_ice",
+  "copy-from": "8mm_caseless",
+  "type": "AMMO",
+  "name": { "str": "8x40mm caseless (enchanted, ice)", "str_pl": "8x40mm caselesss (enchanted, ice)" },
+  "description": "8x40mm caseless rounds. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9}, "recoil": 0.9 },
+  "effects": [ "COOKOFF", "LARGE_BEANBAG", "CHILL", "SHOT" ]
+},{
+  "id": "8mm_caseless_magic_blackhole",
+  "copy-from": "8mm_caseless",
+  "type": "AMMO",
+  "name": { "str": "8x40mm caseless (enchanted, black hole)", "str_pl": "8x40mm caselesss (enchanted, black hole)" },
+  "description": "8x40mm caseless rounds. This bullet has been imbued has had a black hole woven into it by a Magus and will unleash it on hit. It is unstable, and the black hole will randomly appear next to an enemy, not always the one it hits.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.1}, "recoil": 3.0 },
+  "effects": [ "COOKOFF", "SHOT", "NO_EMBED" ],
+  "drop": "blackhole_bomb"
+},{
+  "id": "8mm_caseless_magic_laser",
+  "copy-from": "8mm_caseless",
+  "type": "AMMO",
+  "name": { "str": "8x40mm caseless (enchanted, piercing)", "str_pl": "8x40mm caselesss (enchanted, piercing)" },
+  "description": "8x40mm caseless rounds. This bullet has been imbued with raw magic from a Magus to pierce armor.",
+  "proportional": { "range": 1.1, "recoil": 3.0 },
+  "relative": { "damage": {"damage_type": "bullet", "amount": -10, "armor_penetration": 20} },
+  "effects": [ "COOKOFF", "LASER", "SHOT" ]
+},{
+  "id": "8mm_caseless_magic_lightning",
+  "copy-from": "8mm_caseless",
+  "type": "AMMO",
+  "name": { "str": "8x40mm caseless (enchanted, lightning)", "str_pl": "8x40mm caselesss (enchanted, lightning)" },
+  "description": "8x40mm caseless rounds. This bullet has been imbued with lightning from a Stormshaper and will bounce from enemy to enemy.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.3}, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "LIGHTNING", "BOUNCE" ]
+},{
+  "id": "8mm_caseless_magic_emp",
+  "copy-from": "8mm_caseless",
+  "type": "AMMO",
+  "name": { "str": "8x40mm caseless (enchanted, EMP)", "str_pl": "8x40mm caselesss (enchanted, EMP)" },
+  "description": "8x40mm caseless rounds. This bullet has been tinkered with by a technomancer to corrupt robotics.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.2}, "recoil": 2.0 },
+  "effects": [ "COOKOFF", "EMP" ]
+}]

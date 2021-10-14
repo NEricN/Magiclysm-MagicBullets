@@ -3,7 +3,7 @@
   "copy-from": "44magnum",
   "type": "AMMO",
   "name": { "str": ".44 Magnum (enchanted, light)", "str_pl": ".44 Magnums (enchanted, light)" },
-  "description": ".44 magnum ammunition with 240gr JHP bullets. This bullet has been imbued by an animist to burst in a flash of light.",
+  "description": ".44 Magnum ammunition with 240gr JHP bullets. This bullet has been imbued by an animist to burst in a flash of light.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.2} , "recoil": 1.2 },
   "effects": [ "COOKOFF", "SHOT", "FLASHBANG" ]
 },{
@@ -11,7 +11,7 @@
   "copy-from": "44magnum",
   "type": "AMMO",
   "name": { "str": ".44 Magnum (enchanted, leech)", "str_pl": ".44 Magnums (enchanted, leech)" },
-  "description": ".44 magnum ammunition with 240gr JHP bullets. This bullet has been imbued by an animist to leech mana from its targets.",
+  "description": ".44 Magnum ammunition with 240gr JHP bullets. This bullet has been imbued by an animist to leech mana from its targets.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9} , "recoil": 1.2 },
   "drop": "mana_leech_active"
 },{
@@ -19,7 +19,7 @@
   "copy-from": "44magnum",
   "type": "AMMO",
   "name": { "str": ".44 Magnum (enchanted, acid)", "str_pl": ".44 Magnums (enchanted, acid)" },
-  "description": ".44 magnum ammunition with 240gr JHP bullets. This bullet has been coated by a biomancer's own acid.",
+  "description": ".44 Magnum ammunition with 240gr JHP bullets. This bullet has been coated by a biomancer's own acid.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.3} , "recoil": 1.2 },
   "effects": [ "COOKOFF", "SHOT", "ACIDBOMB", "NO_EMBED" ]
 },{
@@ -27,15 +27,15 @@
   "copy-from": "44magnum",
   "type": "AMMO",
   "name": { "str": ".44 Magnum (enchanted, nature)", "str_pl": ".44 Magnums (enchanted, nature)" },
-  "description": ".44 magnum ammunition with 240gr JHP bullets. This bullet has been imbued by a druid's will and pollen will explode on landing, which can blind and slow.",
-  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9} , "recoil": 1.0 },
+  "description": ".44 Magnum ammunition with 240gr JHP bullets. This bullet has been imbued by a druid's will and pollen will explode on landing, which can blind and slow.",
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9}  },
   "effects": [ "COOKOFF", "BLINDS_EYES", "SHOT", "APPLY_SAP" ]
 },{
   "id": "44magnum_magic_earth",
   "copy-from": "44magnum",
   "type": "AMMO",
   "name": { "str": ".44 Magnum (enchanted, earth)", "str_pl": ".44 Magnums (enchanted, earth)" },
-  "description": ".44 magnum ammunition with 240gr JHP bullets. This bullet has been magically shaped by an Earthshaper to turn into fragments upon impact.",
+  "description": ".44 Magnum ammunition with 240gr JHP bullets. This bullet has been magically shaped by an Earthshaper to turn into fragments upon impact.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.5}, "recoil": 2.0 },
   "effects": [ "COOKOFF", "EXPLOSIVE_RAUFOSS", "SHOT" ]
 },{
@@ -43,7 +43,7 @@
   "copy-from": "44magnum",
   "type": "AMMO",
   "name": { "str": ".44 Magnum (enchanted, fire)", "str_pl": ".44 Magnums (enchanted, fire)" },
-  "description": ".44 magnum ammunition with 240gr JHP bullets. This bullet has been imbued with fire from a Kelvinist.",
+  "description": ".44 Magnum ammunition with 240gr JHP bullets. This bullet has been imbued with fire from a Kelvinist.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.3}, "recoil": 1.2 },
   "effects": [ "COOKOFF", "IGNITE", "SHOT", "FLAME" ]
 },{
@@ -51,7 +51,7 @@
   "copy-from": "44magnum",
   "type": "AMMO",
   "name": { "str": ".44 Magnum (enchanted, ice)", "str_pl": ".44 Magnums (enchanted, ice)" },
-  "description": ".44 magnum ammunition with 240gr JHP bullets. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
+  "description": ".44 Magnum ammunition with 240gr JHP bullets. This bullet has been imbued with ice from a Kelvinist and will try to freeze enemies in place.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9}, "recoil": 0.9 },
   "effects": [ "COOKOFF", "LARGE_BEANBAG", "CHILL", "SHOT" ]
 },{
@@ -59,7 +59,7 @@
   "copy-from": "44magnum",
   "type": "AMMO",
   "name": { "str": ".44 Magnum (enchanted, black hole)", "str_pl": ".44 Magnums (enchanted, black hole)" },
-  "description": ".44 magnum ammunition with 240gr JHP bullets. This bullet has been imbued has had a black hole woven into it by a Magus and will unleash it on hit. It is unstable, and the black hole will randomly appear next to an enemy, not always the one it hits.",
+  "description": ".44 Magnum ammunition with 240gr JHP bullets. This bullet has been imbued has had a black hole woven into it by a Magus and will unleash it on hit. It is unstable, and the black hole will randomly appear next to an enemy, not always the one it hits.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.1}, "recoil": 3.0 },
   "effects": [ "COOKOFF", "SHOT", "NO_EMBED" ],
   "drop": "blackhole_bomb"
@@ -68,7 +68,7 @@
   "copy-from": "44magnum",
   "type": "AMMO",
   "name": { "str": ".44 Magnum (enchanted, piercing)", "str_pl": ".44 Magnums (enchanted, piercing)" },
-  "description": ".44 magnum ammunition with 240gr JHP bullets. This bullet has been imbued with raw magic from a Magus to pierce armor.",
+  "description": ".44 Magnum ammunition with 240gr JHP bullets. This bullet has been imbued with raw magic from a Magus to pierce armor.",
   "proportional": { "range": 1.1, "recoil": 3.0 },
   "relative": { "damage": {"damage_type": "bullet", "amount": -10, "armor_penetration": 20} },
   "effects": [ "COOKOFF", "LASER", "SHOT" ]
@@ -77,7 +77,7 @@
   "copy-from": "44magnum",
   "type": "AMMO",
   "name": { "str": ".44 Magnum (enchanted, lightning)", "str_pl": ".44 Magnums (enchanted, lightning)" },
-  "description": ".44 magnum ammunition with 240gr JHP bullets. This bullet has been imbued with lightning from a Stormshaper and will bounce from enemy to enemy.",
+  "description": ".44 Magnum ammunition with 240gr JHP bullets. This bullet has been imbued with lightning from a Stormshaper and will bounce from enemy to enemy.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.3}, "recoil": 2.0 },
   "effects": [ "COOKOFF", "LIGHTNING", "BOUNCE" ]
 },{
@@ -85,7 +85,7 @@
   "copy-from": "44magnum",
   "type": "AMMO",
   "name": { "str": ".44 Magnum (enchanted, EMP)", "str_pl": ".44 Magnums (enchanted, EMP)" },
-  "description": ".44 magnum ammunition with 240gr JHP bullets. This bullet has been tinkered with by a technomancer to corrupt robotics.",
+  "description": ".44 Magnum ammunition with 240gr JHP bullets. This bullet has been tinkered with by a technomancer to corrupt robotics.",
   "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.2}, "recoil": 2.0 },
   "effects": [ "COOKOFF", "EMP" ]
 }]

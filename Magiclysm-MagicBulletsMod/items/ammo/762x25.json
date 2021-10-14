@@ -28,7 +28,7 @@
   "type": "AMMO",
   "name": { "str": "7.62x25mm JHP (enchanted, nature)", "str_pl": "7.62x25mm JHPs (enchanted, nature)" },
   "description": "A commercial version of the 7.62x25mm cartridge created for the armed forces of Soviet Russia. This bullet has been imbued by a druid's will and pollen will explode on landing, which can blind and slow.",
-  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9} , "recoil": 1.0 },
+  "proportional": { "range": 0.8, "damage": {"damage_type": "bullet", "amount": 0.9}  },
   "effects": [ "COOKOFF", "BLINDS_EYES", "SHOT", "APPLY_SAP" ]
 },{
   "id": "762_25_magic_earth",

@@ -1,0 +1,210 @@
+[{
+  "type": "recipe",
+  "result": "5x50dart_magic_flare",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "charges": 1,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_animist",  1 ] ],
+    [ [ "5x50dart",  1 ] ]
+  ]
+},{
+  "type": "recipe",
+  "result": "5x50dart_magic_leech",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "charges": 1,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_animist",  1 ] ],
+    [ [ "5x50dart",  1 ] ]
+  ]
+},{
+  "type": "recipe",
+  "result": "5x50dart_magic_acid",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "charges": 1,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_biomancer",  1 ] ],
+    [ [ "5x50dart",  1 ] ]
+  ]
+},{
+  "type": "recipe",
+  "result": "5x50dart_magic_nature",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "charges": 1,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_druid",  1 ] ],
+    [ [ "5x50dart",  1 ] ]
+  ]
+},{
+  "type": "recipe",
+  "result": "5x50dart_magic_earth",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "charges": 1,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_earthshaper",  1 ] ],
+    [ [ "5x50dart",  1 ] ]
+  ]
+},{
+  "type": "recipe",
+  "result": "5x50dart_magic_fire",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "charges": 1,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_kelvinist",  1 ] ],
+    [ [ "5x50dart",  1 ] ]
+  ]
+},{
+  "type": "recipe",
+  "result": "5x50dart_magic_ice",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "charges": 1,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_kelvinist",  1 ] ],
+    [ [ "5x50dart",  1 ] ]
+  ]
+},{
+  "type": "recipe",
+  "result": "5x50dart_magic_blackhole",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "charges": 1,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_magus",  1 ] ],
+    [ [ "5x50dart",  1 ] ]
+  ]
+},{
+  "type": "recipe",
+  "result": "5x50dart_magic_laser",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "charges": 1,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_magus",  1 ] ],
+    [ [ "5x50dart",  1 ] ]
+  ]
+},{
+  "type": "recipe",
+  "result": "5x50dart_magic_lightning",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "charges": 1,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_stormshaper",  1 ] ],
+    [ [ "5x50dart",  1 ] ]
+  ]
+},{
+  "type": "recipe",
+  "result": "5x50dart_magic_emp",
+  "category": "CC_ENCHANTED",
+  "subcategory": "CSC_ENCHANTED_AMMO",
+  "skill_used": "fabrication",
+  "skills_required": [ "spellcraft", 4 ],
+  "difficulty": 4,
+  "charges": 1,
+  "time": "1 m",
+  "book_learn": [ [ "book_magic_bullets", 4 ] ],
+  "qualities": [
+    { "id": "MANA_FOCUS", "level": 1 }
+  ],
+  "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+  "components": [
+    [ [ "rune_technomancer",  1 ] ],
+    [ [ "5x50dart",  1 ] ]
+  ]
+}]
