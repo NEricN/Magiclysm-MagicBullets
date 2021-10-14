@@ -4,6 +4,8 @@ This is a mod that adds a book for enchanted bullets. It programmatically looks 
 
 Not balance tested.
 
+Updated to support stable 0.F-2.
+
 Inspired by https://github.com/YASUYASUYASUYASU/magiclysm_addon.
 
 ## Installation
